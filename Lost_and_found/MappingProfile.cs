@@ -5,7 +5,7 @@ namespace Lost_and_found
 {
     public class MappingProfile:Profile
     {
-        public MappingProfile()//
+        public MappingProfile()
         {
             CreateMap<UserDTO, User>().ReverseMap();
             CreateMap<User, UserDTO>();
@@ -22,3 +22,4 @@ namespace Lost_and_found
         }
     }
 }
+//
