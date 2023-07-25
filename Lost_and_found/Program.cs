@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
-//hi!!!!!!!
+//hi!!!!!!! by
 Log.Logger = new LoggerConfiguration()
     .MinimumLevel.Information()
     .WriteTo.File("M:\\פרויקט גמר\\loggingFile.txt").CreateLogger();
