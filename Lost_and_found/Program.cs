@@ -8,6 +8,7 @@ using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 var num = 10;
+var sum = 0;
 Log.Logger = new LoggerConfiguration()
     .MinimumLevel.Information()
     .WriteTo.File("M:\\פרויקט גמר\\loggingFile.txt").CreateLogger();
